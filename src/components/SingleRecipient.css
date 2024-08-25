@@ -1,0 +1,27 @@
+.single-recipient {
+  background: #d1d1d1;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-recipient__email {
+  font-weight: 600;
+  color: #333;
+}
+
+.single-recipient__action {
+  background: #888888;
+  border: 0;
+  color: white;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 4px;
+}
+
+.single-recipient__action:hover {
+  background: #6d6d6d;
+}
